@@ -1,4 +1,4 @@
-# PowerShell-Ncat
+# PowerShell-Ncat (nc/netcat)
 
 # Usage - Reverse Shell
 
