@@ -1,14 +1,15 @@
 function Invoke-Ncat{
 
 <# 
-
 .SYNOPSIS
 
 Author: @whitej3rry
 
 .DESCRIPTION
 
-This is a simple powershell script which uses ncat PE to run ncat on the go...
+This is a simple powershell script which uses ncat PE to run ncat commands for the good ;)
+
+ncat, nc, PowerShell netcat
 
 .PARAMETER ArgumentList
 
